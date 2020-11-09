@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.container{
+    color:white;
+    text-align: center;
+}
+
+.flex-box-container, .flex-box-result{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.flex-box-container button{
+    max-width: 40%;
+    max-height: 80%;
+}
+
+button img{
+    width: 150px;
+    height: 150px;
+}
+
+.flex-box-result{
+    color: white;
+}

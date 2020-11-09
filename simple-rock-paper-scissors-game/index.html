@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janken</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Janken
+        </h1>
+        <h5>
+            also called Rock Paper Scissors - (Janken was a Japanese Dialect)
+        </h5>
+        <div class="flex-box-container">
+            <button onclick="userChoice(this)" id="rock"><img src="https://toppng.com/public/uploads/preview/hard-rock-clipart-transparent-cartoon-rock-transparent-background-11563232479xj3eg0cupp.png" alt=""></button>
+            <button onclick="userChoice(this)" id="paper"><img src="https://www.clipartmax.com/png/middle/14-145163_paper-with-writing-paper-clipart-png.png" alt=""></button>
+            <button onclick="userChoice(this)" id="scissor"><img src="https://img.favpng.com/11/10/14/clip-art-computer-icons-portable-network-graphics-scissors-png-favpng-mqcPSYQZfhDidkRPAvQ96yAhW.jpg" alt=""></button>
+        </div>
+        <div id="resetTheGame">
+            <button class="btn btn-danger" onclick="resetGame()">
+                Reset
+            </button>
+        </div>
+
+
+        <div id="flex-box-result">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
